@@ -1,5 +1,6 @@
 //area of a square
 #include<stdio.h>
+#include<conio.h>
 int main(){
     int side;
     printf("enter side ");
