@@ -1,0 +1,9 @@
+//Usage of modular operator
+#include<stdio.h>
+#include<math.h>
+int main(){
+    printf("%d\n",16%10);
+    printf("%d\n",-8%3);
+    printf("%d",18%9);
+return 0;
+}
