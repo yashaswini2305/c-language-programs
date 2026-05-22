@@ -1,0 +1,12 @@
+//Print 1(true) and 0(false)
+//If it's sunday and it's snowing-true
+#include<stdio.h>
+#include<math.h>
+int main(){
+    //print 1-true 
+    //print 0-false
+    int sunday=1;
+    int snowing=1;
+    printf("%d",sunday && snowing);
+    return 0;
+}
