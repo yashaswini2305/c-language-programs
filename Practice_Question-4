@@ -1,0 +1,10 @@
+/*print 1(true) or 0(false)
+If it's monday or it"s raining-true*/
+#include <stdio.h>
+#include <math.h>
+int main() {
+    int monday=0;
+    int raining=1;
+    printf("%d",monday || raining );
+    return 0;
+}
