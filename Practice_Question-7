@@ -1,0 +1,21 @@
+//Program to give grades to students
+#include <stdio.h>
+int main() {
+    int marks;
+    printf("enter marks:");
+    scanf("%d",&marks);
+    if (marks<30){
+        printf("Student got grade C\n");
+    }
+    else if(30<= marks && marks<70){
+        printf("student got grade B\n");
+    }
+    else if(70<=marks && marks<90){
+        printf("Student got grade A\n");
+    }
+    else if (90<= marks && marks<=100){
+        printf("Student got grade A+\n");
+    }
+    printf("Thank you");
+    return 0;
+}
