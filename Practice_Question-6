@@ -1,0 +1,15 @@
+//To know if a student is pass or fail
+#include <stdio.h>
+int main() {
+    int marks;
+    printf("enter marks:");
+    scanf("%d",&marks);
+    if (marks>=30){
+        printf("Student is pass\n");
+    }
+    else {
+        printf("student is fail\n");
+    }
+    printf("Thank you");
+    return 0;
+}
