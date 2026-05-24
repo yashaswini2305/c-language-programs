@@ -17,7 +17,7 @@ int main() {
         printf("Student got grade A+\n");
     }
     else{
-        printf("Wrong marks")
+        printf("Wrong marks.\n");
     }
     printf("Thank you");
     return 0;
