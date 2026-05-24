@@ -16,6 +16,9 @@ int main() {
     else if (90<= marks && marks<=100){
         printf("Student got grade A+\n");
     }
+    else{
+        printf("Wrong marks")
+    }
     printf("Thank you");
     return 0;
 }
