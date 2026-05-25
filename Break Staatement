@@ -1,0 +1,15 @@
+//Break statement
+#include <stdio.h>
+int main() {
+    int n;
+    printf("Enter number:");
+    scanf("%d",&n);
+    for(int i=1;i<=n;i++){
+        if(i==n-3){
+            break;
+        }
+        printf("%d\n",i);
+    }
+    printf("The End");
+    return 0;
+}
