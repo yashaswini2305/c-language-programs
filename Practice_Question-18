@@ -1,0 +1,17 @@
+//Write 2 functions one to print ("Hello") and another to print("Goodbye")
+#include <stdio.h>
+//declaration/prototype
+void printHello();
+void printGoodbye();
+int main(){
+    printHello();//function call
+    printGoodbye();
+    return 0;
+}
+//Function definition
+void printHello(){
+    printf("Hello!\n");
+}
+void printGoodbye(){
+    printf("Goodbye:)");
+}
